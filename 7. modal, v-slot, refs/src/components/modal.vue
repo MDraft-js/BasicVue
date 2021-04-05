@@ -14,7 +14,7 @@
         <div class="modal-footer">
           <slot name="footer">
             <button type="button" class="btn btn-secondary" @click="closeModal">Отмена</button>
-            <button type="button" class="btn btn-primary" :disabled="isRulesReaded">Принять</button>
+            <button type="button" class="btn btn-primary" :disabled="!isRulesReaded">Принять</button>
           </slot>
         </div>
       </div>
@@ -42,7 +42,7 @@ export default {
     },
     onBodyScroll() {
       const modalBody = this.$refs.modalBody
-      if (modalBody.clientHeight + modalBody.ScrollTop >= modalBody.scrollHeight) {
+      if (modalBody.clientHeight + modalBody.scrollTop >= modalBody.scrollHeight) {
         this.isRulesReaded = true
       }
     }
