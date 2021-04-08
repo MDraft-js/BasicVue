@@ -1,4 +1,4 @@
-# 2
+# mixin, plugins
 
 ## Project setup
 ```

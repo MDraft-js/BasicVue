@@ -56,41 +56,41 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .container {
-    margin-top: 40px;
-  }
-  .controls {
-    margin-left: 20px;
-  }
-  .img-wrapper {
-    width: 640px;
-    height: 480px;
-    background-color: #cecece;
-  }
-  img {
-    transition: 0.2s ease;
-  }
-  img.sepia {
-    filter: sepia(100%);
-  }
-  img.border {
-    border: 5px dashed #464646
-  }
-  img.small {
-    width: 400px !important;
-  }
-  button {
-    margin-right: 10px;
-  }
-  button.active {
-    background-color: #dbdbdb;
-  }
-  h2 {
-    margin-bottom: 10px;
-  }
-  .btn-group {
-    margin-bottom: 20px;
-  }
-  input[type="range"] {
-    display: block;
-  }
+  margin-top: 40px;
+}
+.controls {
+  margin-left: 20px;
+}
+.img-wrapper {
+  width: 640px;
+  height: 480px;
+  background-color: #cecece;
+}
+img {
+  transition: 0.2s ease;
+}
+img.sepia {
+  filter: sepia(100%);
+}
+img.border {
+  border: 5px dashed #464646
+}
+img.small {
+  width: 400px !important;
+}
+button {
+  margin-right: 10px;
+}
+button.active {
+  background-color: #dbdbdb;
+}
+h2 {
+  margin-bottom: 10px;
+}
+.btn-group {
+  margin-bottom: 20px;
+}
+input[type="range"] {
+  display: block;
+}
 </style>

@@ -1,4 +1,4 @@
-# modal
+# v-model
 
 ## Project setup
 ```
